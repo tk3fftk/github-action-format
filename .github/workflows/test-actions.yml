@@ -17,5 +17,5 @@ jobs:
           aqua_version: v2.22.0
       - uses: ./
         with:
-          command: git ls-files | grep -E "\.sh$" | xargs shfmt -l -s -w
+          command: terraform init
           commit_message: "style: shfmt"
