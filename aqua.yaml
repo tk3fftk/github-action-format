@@ -7,3 +7,4 @@ registries:
 packages:
 - name: int128/ghcp@v1.13.5
 - name: mvdan/sh@v3.10.0
+- name: hashicorp/terraform@v1.10.2
